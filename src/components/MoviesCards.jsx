@@ -6,7 +6,6 @@ export const MoviesCards = ({ movie }) => {
 
     const { addFavorite } = useFavorites();
 
-    
     const handleAddToFavorite = () => {
         addFavorite(movie)
     };

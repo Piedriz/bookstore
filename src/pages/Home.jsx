@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import { useGetBooks } from '../hooks/useGetBooks'
 import { Search } from '../components/Search';
 import { CardsContainer } from '../components/BooksContainer';
